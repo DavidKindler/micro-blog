@@ -7,7 +7,7 @@
   "dependencies": {
     "@emotion/core": "^10.0.6",
     "@emotion/styled": "^10.0.6",
-    "auth0-js": "^9.9.0",
+    "auth0-js": "^9.13.2",
     "axios": "^0.18.0",
     "dotenv": "^6.2.0",
     "gatsby": "^2.0.76",
