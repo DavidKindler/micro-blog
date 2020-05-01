@@ -27,7 +27,8 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-helmet": "^5.2.0"
+    "react-helmet": "^5.2.0",
+    "snyk": "^1.316.1"
   },
   "keywords": [
     "gatsby",
@@ -42,7 +43,9 @@
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\"",
     "start:lambda": "NODE_ENV=development netlify-lambda serve functions",
     "build:lambda": "netlify-lambda build functions",
-    "prod": "NODE_ENV=production npm run build; npm run build:lambda"
+    "prod": "NODE_ENV=production npm run build; npm run build:lambda",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "devDependencies": {
     "prettier": "^1.15.2"
@@ -53,5 +56,6 @@
   },
   "bugs": {
     "url": "https://github.com/theozmic/micro-blog/issues"
-  }
+  },
+  "snyk": true
 }
